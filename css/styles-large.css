@@ -2,6 +2,7 @@
 i. Body classes 
 ii. General classes 
 iii. More specific classes */
+
 img, embed, object, video{
 	max-width: 100%;
 	margin: auto;
@@ -42,11 +43,4 @@ hr{
 .text-thin{
 	font-weight: 100;
 }
-.col-md-6{
-	width: 100%;
-	margin: auto;
-}
 
-#logodiv, #titlediv{
-	text-align: center;
-}

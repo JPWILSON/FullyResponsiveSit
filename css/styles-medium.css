@@ -2,6 +2,7 @@
 i. Body classes 
 ii. General classes 
 iii. More specific classes */
+
 img, embed, object, video{
 	max-width: 100%;
 	margin: auto;
