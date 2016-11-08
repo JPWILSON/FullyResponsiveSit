@@ -2,11 +2,21 @@
 i. Body classes 
 ii. General classes 
 iii. More specific classes */
+*{
+	border: solid red 1px;
+}
+img, embed, object, video{
+	max-width: 100%;
+}
 
 body{
 	font-family: 'Lato', sans-serif;
 	color: #747704;
 	font-weight: 300;
+}
+
+.container{
+	max-width: 1500px;	
 }
 
 hr{
@@ -19,6 +29,9 @@ hr{
 }
 .title-logo{
 	margin-top: 15px;
+	/*width: calc((100%-120px)/2;
+	margin-left: 120px;
+	margin-right: 120px;*/
 }
 
 .text-muted{
@@ -27,4 +40,7 @@ hr{
 
 .text-thin{
 	font-weight: 100;
+}
+.col-md-6{
+	width: 100%;
 }
