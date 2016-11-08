@@ -1,15 +1,30 @@
-col-1{
-	width: 8.33%;
+/* General order for these classes: 
+i. Body classes 
+ii. General classes 
+iii. More specific classes */
+
+body{
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
 }
 
-col-2{
-	width: 16.66%;
+hr{
+	border: none;
+	height: 3px;
+	background-color: #BCBBBB;
+}
+.title-super{
+	font-size: 60px;
+}
+.title-logo{
+	margin-top: 15px;
 }
 
-col-4{
-	width: 33.33%;
+.text-muted{
+	color:#BCBBBB;
 }
 
-col-6{
-	width: 50%;
+.text-thin{
+	font-weight: 100;
 }
