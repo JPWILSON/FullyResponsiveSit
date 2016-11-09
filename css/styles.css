@@ -14,6 +14,10 @@ body{
 	font-weight: 300;
 }
 
+/*footer{
+	display: none;
+}*/
+
 .container{
 	max-width: 1500px;	
 }
@@ -36,6 +40,7 @@ hr{
 }
 
 .text-muted{
+	font-size: 15px;
 	color:#7d97ad;
 }
 
@@ -49,4 +54,8 @@ hr{
 
 #logodiv, #titlediv{
 	text-align: center;
+}
+
+#footer{
+	display: none;
 }
