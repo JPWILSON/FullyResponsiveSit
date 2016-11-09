@@ -52,10 +52,11 @@ hr{
 	margin: auto;
 }
 
+.footer{
+	display: none;
+}
+
 #logodiv, #titlediv{
 	text-align: center;
 }
 
-#footer{
-	display: none;
-}
