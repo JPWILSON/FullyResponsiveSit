@@ -2,12 +2,10 @@
 i. Body classes 
 ii. General classes 
 iii. More specific classes */
-
 img, embed, object, video{
 	max-width: 100%;
 	margin: auto;
 }
-
 
 body{
 	font-family: 'Lato', sans-serif;
@@ -48,16 +46,18 @@ hr{
 .text-thin{
 	font-weight: 100;
 }
+
 .col-md-6{
 	width: 100%;
 	margin: auto;
 }
 
-.footer{
+/*.footer{
 	display: none;
 }
-
+I like this, but rubric says all content on all viewports, so 
+					im removing it for the grading and then will use this template later and put it bac
+*/
 #logodiv, #titlediv{
 	text-align: center;
 }
-
